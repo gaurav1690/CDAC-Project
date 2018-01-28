@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=adc_config.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\adc_config -TC:\CooCox\CoIDE\configuration\ProgramData\adc_config/arm-gcc-link.ld -g">
+      <target file="adc_config.elf" lastModified="16128045ee4">
+         <source file="..\obj\semihosting.o" lastModified="16127cb9bbf"/>
+         <source file="..\obj\lpc17xx_clkpwr.o" lastModified="16127cb9bee"/>
+         <source file="..\obj\system_LPC17xx.o" lastModified="16127cb9c1d"/>
+         <source file="..\obj\lpc17xx_adc.o" lastModified="16127cb9c4b"/>
+         <source file="..\obj\main.o" lastModified="16127f3e39a"/>
+         <source file="..\obj\printf.o" lastModified="16127cb9cd8"/>
+         <source file="..\obj\lpc17xx_gpio.o" lastModified="16127cb9d26"/>
+         <source file="..\obj\startup_LPC17xx.o" lastModified="16127cb9d45"/>
+         <source file="..\obj\lpc17xx_libcfg_default.o" lastModified="16127cb9d64"/>
+         <source file="..\obj\lpc17xx_pinsel.o" lastModified="16127cb9d83"/>
+         <source file="..\obj\sh_cmd.o" lastModified="16127cb9d93"/>
+         <source file="..\obj\syscalls.o" lastModified="16127cb9db2"/>
+      </target>
+   </processor>
+</history>

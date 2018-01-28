@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\workspace\adc_config\cmsis_boot /I..\..\..\workspace /I..\..\..\workspace\adc_config\lpc17xx_lib\include /I..\..\..\workspace\adc_config\lpc17xx_lib /I..\..\..\workspace\adc_config\semihosting /I..\..\..\workspace\adc_config\cmsis /I..\..\..\workspace\adc_config">
+      <source file="..\..\..\lpc17xx_lib\include\lpc17xx_pinsel.h" lastModified="161278b9037">
+         <include file="..\..\..\cmsis_boot\LPC17xx.h"/>
+         <include file="..\..\..\lpc17xx_lib\include\lpc_types.h"/>
+      </source>
+      <source file="..\..\..\lpc17xx_lib\source\lpc17xx_gpio.c" lastModified="161278b7796">
+         <include file="..\..\..\lpc17xx_lib\include\lpc17xx_gpio.h"/>
+         <include file="..\..\..\lpc17xx_lib\include\lpc17xx_libcfg_default.h"/>
+      </source>
+      <source file="..\..\..\lpc17xx_lib\include\lpc17xx_clkpwr.h" lastModified="161278b73bd">
+         <include file="..\..\..\cmsis_boot\LPC17xx.h"/>
+         <include file="..\..\..\lpc17xx_lib\include\lpc_types.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="161278b7b8d">
+      </source>
+      <source file="..\..\..\lpc17xx_lib\include\lpc_types.h" lastModified="161278b77a5">
+      </source>
+      <source file="..\..\..\lpc17xx_lib\source\lpc17xx_adc.c" lastModified="161278b9410">
+         <include file="..\..\..\lpc17xx_lib\include\lpc17xx_adc.h"/>
+         <include file="..\..\..\lpc17xx_lib\include\lpc17xx_clkpwr.h"/>
+         <include file="..\..\..\lpc17xx_lib\include\lpc17xx_libcfg_default.h"/>
+      </source>
+      <source file="..\..\..\lpc17xx_lib\include\lpc17xx_libcfg_default.h" lastModified="161278b73bd">
+         <include file="..\..\..\lpc17xx_lib\include\lpc_types.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_LPC17xx.h" lastModified="161278b77a5">
+      </source>
+      <source file="..\..\..\cmsis\core_cm3.h" lastModified="161278b77a5">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+      </source>
+      <source file="..\..\..\stdio\printf.c" lastModified="16127a209ca">
+      </source>
+      <source file="..\..\..\lpc17xx_lib\include\lpc17xx_gpio.h" lastModified="161278b73ae">
+         <include file="..\..\..\cmsis_boot\LPC17xx.h"/>
+         <include file="..\..\..\lpc17xx_lib\include\lpc_types.h"/>
+      </source>
+      <source file="..\..\..\syscalls\syscalls.c" lastModified="161278b6cd6">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_LPC17xx.c" lastModified="161278b77a5">
+         <include file="..\..\..\cmsis_boot\LPC17xx.h"/>
+      </source>
+      <source file="..\..\..\lpc17xx_lib\source\lpc17xx_libcfg_default.c" lastModified="161278b73bd">
+         <include file="..\..\..\lpc17xx_lib\include\lpc17xx_libcfg_default.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_LPC17xx.c" lastModified="161278b73bd">
+      </source>
+      <source file="..\..\..\lpc17xx_lib\include\lpc17xx_adc.h" lastModified="161278b9018">
+         <include file="..\..\..\cmsis_boot\LPC17xx.h"/>
+         <include file="..\..\..\lpc17xx_lib\include\lpc_types.h"/>
+      </source>
+      <source file="..\..\..\semihosting\semihosting.h" lastModified="161278b6625">
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="161278b7b8d">
+      </source>
+      <source file="..\..\..\main.c" lastModified="16127f3d410">
+         <include file="..\..\..\cmsis_boot\LPC17xx.h"/>
+         <include file="..\..\..\lpc17xx_lib\include\lpc17xx_adc.h"/>
+         <include file="..\..\..\lpc17xx_lib\include\lpc17xx_gpio.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\LPC17xx.h" lastModified="161278b73bd">
+         <include file="..\..\..\cmsis\core_cm3.h"/>
+         <include file="..\..\..\cmsis_boot\system_LPC17xx.h"/>
+      </source>
+      <source file="..\..\..\semihosting\sh_cmd.s" lastModified="161278b6625">
+      </source>
+      <source file="..\..\..\lpc17xx_lib\source\lpc17xx_pinsel.c" lastModified="161278b9037">
+         <include file="..\..\..\lpc17xx_lib\include\lpc17xx_pinsel.h"/>
+      </source>
+      <source file="..\..\..\semihosting\semihosting.c" lastModified="161278b6df5">
+         <include file="..\..\..\semihosting\semihosting.h"/>
+      </source>
+      <source file="..\..\..\lpc17xx_lib\source\lpc17xx_clkpwr.c" lastModified="161278b73bd">
+         <include file="..\..\..\lpc17xx_lib\include\lpc17xx_clkpwr.h"/>
+      </source>
+   </includePath>
+</dependencies>
